@@ -14,14 +14,14 @@ Data download: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUC
 ##Dependancies
 1.	Data for the analysis downloaded and unzipped to your working directory
 2.	The script requires the use of the following libraries. If not installed, they will need to be installed prior to starting.  
-*a."plyr"
-*b."reshape2"
+  a. "plyr"  
+  b. "reshape2"  
 3.	Download the "run_analysis.R" file from this repository to your working directory
 
 ##Run script
 1.	Run source("run_analysis.R") command within RStudio
-2.	New Tidy Data set named "avgforactivity_subject.txt" will be saved in your working directory.
-  a.	Rows:  Variable by Activity
-  b.	Columns: Subject
-  c.	Values: Means for each variable by subject and activity
+2.	New Tidy Data set named "avgforactivity_subject.txt" will be saved in your working directory.  
+  a.	Rows:  Variable by Activity  
+  b.	Columns: Subject  
+  c.	Values: Means for each variable by subject and activity  
 3.	You can load this file into RStudio later for analysis by using the read.table("avgforactivity_subject.txt",header=TRUE)
